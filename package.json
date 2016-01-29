@@ -1,0 +1,11 @@
+{
+  "name": "pollingapp",
+  "version": "1.0.0",
+  "description": "A polling app in which user can add questions, delete questions, poll and view polling",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noor-ul-Huda <hudasiddiq76@gmail.com>",
+  "license": "ISC"
+}

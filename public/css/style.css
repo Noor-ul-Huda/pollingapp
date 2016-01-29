@@ -1,0 +1,11 @@
+#addButton {
+    float: right;
+}
+
+.padding {
+    padding: 7%;
+}
+
+#questions {
+    list-style-type: none;
+}

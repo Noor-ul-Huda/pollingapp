@@ -1,0 +1,27 @@
+<!docType>
+        <head>
+    <title>Polling</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/service.js"></script>
+    <script src="js/controller.js"></script>
+</head>
+<body ng-app="app" ng-controller="addQuestionCtrl" class="container">
+<h1>Polling Application</h1>
+<form id="addQuestionForm" class="padding">
+    <h2>Question:</h2>
+    <input ng-model="question" type="text" placeholder="Enter Question"/>
+    <h2>Options</h2>
+    <ul class="OptionList" ng-model="optList">
+    </ul>
+    <input id="option" ng-model="inputOptions" ng-click="hideAddOptionBtn()"/>
+
+    <button id='addOptionsBtn' ng-click="addOptions()">Add more options</button>
+    <button ng-click="Add()">Add</button>
+</form>
+</body>
